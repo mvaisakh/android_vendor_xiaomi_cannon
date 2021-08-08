@@ -112,6 +112,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "fp_cap_manifest",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/fp_cap_manifest.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "manifest_vendor.xiaomi.hardware.mfidoca",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml",
@@ -151,6 +160,15 @@ prebuilt_etc_xml {
 	name: "manifest_vendor.xiaomi.hardware.vsimapp",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "power-default",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
